@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE80DB152C3C0FC7001DC484 /* Infinity_ChaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB142C3C0FC7001DC484 /* Infinity_ChaseApp.swift */; };
+		EE80DB172C3C0FC7001DC484 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB162C3C0FC7001DC484 /* ContentView.swift */; };
+		EE80DB192C3C0FCB001DC484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE80DB182C3C0FCB001DC484 /* Assets.xcassets */; };
+		EE80DB1C2C3C0FCB001DC484 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE80DB1B2C3C0FCB001DC484 /* Preview Assets.xcassets */; };
+		EE80DB242C3C1018001DC484 /* ChaseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB232C3C1018001DC484 /* ChaseMenu.swift */; };
+		EE80DB272C3C2701001DC484 /* ChaseShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB262C3C2701001DC484 /* ChaseShopView.swift */; };
+		EE80DB292C3C27E8001DC484 /* Knewave-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE80DB282C3C27E8001DC484 /* Knewave-Regular.ttf */; };
+		EE80DB2C2C3C29DA001DC484 /* ChaseShopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB2B2C3C29DA001DC484 /* ChaseShopManager.swift */; };
+		EE80DB2F2C3D60A6001DC484 /* ChaseRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB2E2C3D60A6001DC484 /* ChaseRecordsView.swift */; };
+		EE80DB312C3D60AF001DC484 /* ChaseRecordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB302C3D60AF001DC484 /* ChaseRecordsViewModel.swift */; };
+		EE80DB342C3D6489001DC484 /* ChaseGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB332C3D6489001DC484 /* ChaseGameView.swift */; };
+		EE80DB362C3D64FA001DC484 /* ChaseGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB352C3D64FA001DC484 /* ChaseGameScene.swift */; };
+		EE80DB392C3D6536001DC484 /* ApplicationOrigentationChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE80DB382C3D6536001DC484 /* ApplicationOrigentationChecker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE80DB112C3C0FC7001DC484 /* Infinity Chase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinity Chase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE80DB142C3C0FC7001DC484 /* Infinity_ChaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infinity_ChaseApp.swift; sourceTree = "<group>"; };
+		EE80DB162C3C0FC7001DC484 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE80DB182C3C0FCB001DC484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE80DB1B2C3C0FCB001DC484 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE80DB232C3C1018001DC484 /* ChaseMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseMenu.swift; sourceTree = "<group>"; };
+		EE80DB262C3C2701001DC484 /* ChaseShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseShopView.swift; sourceTree = "<group>"; };
+		EE80DB282C3C27E8001DC484 /* Knewave-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Knewave-Regular.ttf"; sourceTree = "<group>"; };
+		EE80DB2A2C3C27F8001DC484 /* Infinity-Chase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Infinity-Chase-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE80DB2B2C3C29DA001DC484 /* ChaseShopManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseShopManager.swift; sourceTree = "<group>"; };
+		EE80DB2E2C3D60A6001DC484 /* ChaseRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseRecordsView.swift; sourceTree = "<group>"; };
+		EE80DB302C3D60AF001DC484 /* ChaseRecordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseRecordsViewModel.swift; sourceTree = "<group>"; };
+		EE80DB332C3D6489001DC484 /* ChaseGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseGameView.swift; sourceTree = "<group>"; };
+		EE80DB352C3D64FA001DC484 /* ChaseGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaseGameScene.swift; sourceTree = "<group>"; };
+		EE80DB382C3D6536001DC484 /* ApplicationOrigentationChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationOrigentationChecker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE80DB0E2C3C0FC7001DC484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE80DB082C3C0FC7001DC484 = {
+			isa = PBXGroup;
+			children = (
+				EE80DB132C3C0FC7001DC484 /* Infinity Chase */,
+				EE80DB122C3C0FC7001DC484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE80DB122C3C0FC7001DC484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB112C3C0FC7001DC484 /* Infinity Chase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE80DB132C3C0FC7001DC484 /* Infinity Chase */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB372C3D652F001DC484 /* AppCommon */,
+				EE80DB322C3D647F001DC484 /* ChaseGame */,
+				EE80DB2D2C3D6097001DC484 /* ChaseRecords */,
+				EE80DB2A2C3C27F8001DC484 /* Infinity-Chase-Info.plist */,
+				EE80DB282C3C27E8001DC484 /* Knewave-Regular.ttf */,
+				EE80DB252C3C26ED001DC484 /* ChaseShop */,
+				EE80DB222C3C100C001DC484 /* ChaseMenu */,
+				EE80DB142C3C0FC7001DC484 /* Infinity_ChaseApp.swift */,
+				EE80DB162C3C0FC7001DC484 /* ContentView.swift */,
+				EE80DB182C3C0FCB001DC484 /* Assets.xcassets */,
+				EE80DB1A2C3C0FCB001DC484 /* Preview Content */,
+			);
+			path = "Infinity Chase";
+			sourceTree = "<group>";
+		};
+		EE80DB1A2C3C0FCB001DC484 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB1B2C3C0FCB001DC484 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE80DB222C3C100C001DC484 /* ChaseMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB232C3C1018001DC484 /* ChaseMenu.swift */,
+			);
+			path = ChaseMenu;
+			sourceTree = "<group>";
+		};
+		EE80DB252C3C26ED001DC484 /* ChaseShop */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB262C3C2701001DC484 /* ChaseShopView.swift */,
+				EE80DB2B2C3C29DA001DC484 /* ChaseShopManager.swift */,
+			);
+			path = ChaseShop;
+			sourceTree = "<group>";
+		};
+		EE80DB2D2C3D6097001DC484 /* ChaseRecords */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB2E2C3D60A6001DC484 /* ChaseRecordsView.swift */,
+				EE80DB302C3D60AF001DC484 /* ChaseRecordsViewModel.swift */,
+			);
+			path = ChaseRecords;
+			sourceTree = "<group>";
+		};
+		EE80DB322C3D647F001DC484 /* ChaseGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB332C3D6489001DC484 /* ChaseGameView.swift */,
+				EE80DB352C3D64FA001DC484 /* ChaseGameScene.swift */,
+			);
+			path = ChaseGame;
+			sourceTree = "<group>";
+		};
+		EE80DB372C3D652F001DC484 /* AppCommon */ = {
+			isa = PBXGroup;
+			children = (
+				EE80DB382C3D6536001DC484 /* ApplicationOrigentationChecker.swift */,
+			);
+			path = AppCommon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE80DB102C3C0FC7001DC484 /* Infinity Chase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE80DB1F2C3C0FCB001DC484 /* Build configuration list for PBXNativeTarget "Infinity Chase" */;
+			buildPhases = (
+				EE80DB0D2C3C0FC7001DC484 /* Sources */,
+				EE80DB0E2C3C0FC7001DC484 /* Frameworks */,
+				EE80DB0F2C3C0FC7001DC484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Infinity Chase";
+			productName = "Infinity Chase";
+			productReference = EE80DB112C3C0FC7001DC484 /* Infinity Chase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE80DB092C3C0FC7001DC484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EE80DB102C3C0FC7001DC484 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EE80DB0C2C3C0FC7001DC484 /* Build configuration list for PBXProject "Infinity Chase" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE80DB082C3C0FC7001DC484;
+			productRefGroup = EE80DB122C3C0FC7001DC484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE80DB102C3C0FC7001DC484 /* Infinity Chase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE80DB0F2C3C0FC7001DC484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE80DB292C3C27E8001DC484 /* Knewave-Regular.ttf in Resources */,
+				EE80DB1C2C3C0FCB001DC484 /* Preview Assets.xcassets in Resources */,
+				EE80DB192C3C0FCB001DC484 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE80DB0D2C3C0FC7001DC484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE80DB172C3C0FC7001DC484 /* ContentView.swift in Sources */,
+				EE80DB392C3D6536001DC484 /* ApplicationOrigentationChecker.swift in Sources */,
+				EE80DB242C3C1018001DC484 /* ChaseMenu.swift in Sources */,
+				EE80DB312C3D60AF001DC484 /* ChaseRecordsViewModel.swift in Sources */,
+				EE80DB362C3D64FA001DC484 /* ChaseGameScene.swift in Sources */,
+				EE80DB2F2C3D60A6001DC484 /* ChaseRecordsView.swift in Sources */,
+				EE80DB152C3C0FC7001DC484 /* Infinity_ChaseApp.swift in Sources */,
+				EE80DB2C2C3C29DA001DC484 /* ChaseShopManager.swift in Sources */,
+				EE80DB272C3C2701001DC484 /* ChaseShopView.swift in Sources */,
+				EE80DB342C3D6489001DC484 /* ChaseGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE80DB1D2C3C0FCB001DC484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE80DB1E2C3C0FCB001DC484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE80DB202C3C0FCB001DC484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Infinity Chase/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Infinity-Chase-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Infinity-Chase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE80DB212C3C0FCB001DC484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Infinity Chase/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Infinity-Chase-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Infinity-Chase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE80DB0C2C3C0FC7001DC484 /* Build configuration list for PBXProject "Infinity Chase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE80DB1D2C3C0FCB001DC484 /* Debug */,
+				EE80DB1E2C3C0FCB001DC484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE80DB1F2C3C0FCB001DC484 /* Build configuration list for PBXNativeTarget "Infinity Chase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE80DB202C3C0FCB001DC484 /* Debug */,
+				EE80DB212C3C0FCB001DC484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE80DB092C3C0FC7001DC484 /* Project object */;
+}
